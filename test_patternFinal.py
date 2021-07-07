@@ -30,7 +30,7 @@ def checked_pattern():
                 try:
                     if list([b, c - 1]) in list_1 and list([b, c + 1]) in list_1 and list([b + 1, c]) in list_1 and list(
                             [b - 1, c]) in list_1:
-                        return 'True'
+                        return True
                 except:
                     pass
     return False
